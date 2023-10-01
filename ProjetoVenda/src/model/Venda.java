@@ -26,4 +26,8 @@ public class Venda {
     public double getValorTotal() {
         return valorTotal;
     }
+    
+    public List<ItemVenda> getItens() {
+        return itens;
+    }
 }

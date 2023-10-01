@@ -8,7 +8,11 @@ public class Product {
 		setName(name);
 		setValorUnitario(valorUnitario);
 	}
-		
+			
+	public String getName() {
+		return name;
+	}
+
 	public void setName(String name) throws Exception{
 		if(name.equals(""))	
 			throw new Exception("Nome do produto nao pode ser nulo!");
